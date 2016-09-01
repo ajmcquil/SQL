@@ -1,0 +1,26 @@
+Assignment 7
+Due: Oct 26 before class
+Worth: 100 points
+Finish the following queries and submit the queries in a file named A7.sql. 
+1.       Write a query to display the eight departments in the LGDEPARTMENT table.
+2.       Write a query to display the SKU (stock keeping unit), description, type, base, category, and price for all products that have a PROD_BASE of water and a PROD_CATEGORY of sealer.
+3.       Write a query to display the first name, last name, and e-mail address of employees hired from January 1, 2001, to December 31, 2010. Sort the output by last name and then by first name.
+4.       Write a query to display the first name, last name, phone number, title, and department number of employees who work in department 300 or have the title “CLERK I.” Sort the output by last name and then by first name.
+5.       Write a query to display the employee number, last name, first name, salary “from” date, salary end date, and salary amount for employees 83731, 83745, and 84039. Sort the output by employee number and salary “from” date.
+6.     Write a query to display the first name, last name, street, city, state, and zip code of any customer who purchased a Foresters Best brand top coat between July 15, 2013, and July 31, 2013. If a customer purchased more than one such product, display the customer’s information only once in the output. Sort the output by state, last name, and then first name.
+7.       Write a query to display the employee number, last name, e-mail address, title, and department name of each employee whose job title ends in the word “ASSOCIATE.” Sort the output by department name and employee title.
+8.       Write a query to display a brand name and the number of products of that brand that are in the database. Sort the output by the brand name.
+9.       Write a query to display the number of products in each category that have a water base.
+10.   Write a query to display the number of products within each base and type combination.
+11.   Write a query to display the total inventory—that is, the sum of all products on hand for each brand ID. Sort the output by brand ID in descending order.
+12.   Write a query to display the brand ID, brand name, and average price of products of each brand. Sort the output by brand name. (Results are shown with the average price rounded to two decimal places.)
+13.   Write a query to display the department number and most recent employee hire date for each department. Sort the output by department number.
+14.   Write a query to display the employee number, first name, last name, and largest salary amount for each employee in department 200. Sort the output by largest salary in descending order.
+15.   Write a query to display the customer code, first name, last name, and sum of all invoice totals for customers with cumulative invoice totals greater than $1,500. Sort the output by the sum of invoice totals in descending order.
+16.   Write a query to display the department number, department name, department phone number, employee number, and last name of each department manager. Sort the output by department name.
+17.   Write a query to display the vendor ID, vendor name, brand name, and number of products of each brand supplied by each vendor. Sort the output by vendor name and then by brand name.
+18.   Write a query to display the employee number, last name, first name, and sum of invoice totals for all employees who completed an invoice. Sort the output by employee last name and then by first name.
+19.   Write a query to display the largest average product price of any brand.
+20.   Write a query to display the brand ID, brand name, brand type, and average price of products for the brand that has the largest average product price.
+21.   Write a query to display the manager name, department name, department phone number, employee name, customer name, invoice date, and invoice total for the department manager of the employee who made a sale to a customer whose last name is Hagan on May 18, 2011. For all person names, concatenate the first and last names into a single field.
+
