@@ -1,0 +1,13 @@
+In this assignment you will use the same database as in Assignment 7.
+
+Part 1. The company that owns the A7 database would like to analyze sales through a multi-dimensional model. In particular they would like to analyze sales in terms of quantity and price through dimensions such as Customer, Department, Product, Employee, and Time. Design a star schema to meet the requirements.You will submit a picture of the ERD using screen capture of the ERD diagram in SQL Server. For dimension tables you will use all the atributes from the transaction tables except for the time dimension, where you will have as a minimum the date, year, and month.
+
+Part 2. Create a database to implement the design in Part 1 above. YOu must use Create table statements with Alter table statements to add all the constraints. Save the script in a file named A10P2.sql.
+
+Part 3. Write a stored procedure to populate the star schema database with the transaction data in the A7 database. Save the stored procedure in a file named A10P3.sql. The stored procedure should be such that it can be rerun/tested whether or not the star schema database is populated. 
+
+Part 4. Write a query for each of the following:
+
+Show the sales totals by city of customers and product category. Show fields City, Category, Total (quantity * price)
+What are the top three months in terms of sales  (quantity * price)?
+Create a question whose answer will require the use of all the dimensions. Write a query to answer your question.
